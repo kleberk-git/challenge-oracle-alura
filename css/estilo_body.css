@@ -1,0 +1,85 @@
+
+body{
+	margin: 8em;
+	padding: 0;
+	background:  linear-gradient(to  left, #1e1e1e, #282923);
+	font-family: COURIER NEW;
+}
+
+a{
+  text-decoration-line: none;
+}
+
+h2{
+	color: #fff;
+	justify-content: center;	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+label{
+	color: #fff
+}
+
+textarea{
+	resize: none;
+	background: #111;
+	color: #ccff33;	
+}
+
+.container{
+	justify-content: center;	
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.btn-estilo{
+	height: 45px;
+	width: 180px;
+	background: linear-gradient(to  right,  #ccff33, #1e1e1e);
+	cursor: pointer;
+	margin: 5px;
+	justify-content: center;	
+	flex-wrap: wrap;
+	color: #fff;
+	border: none;
+	font-family: COURIER NEW;
+	font-size: 15px;
+	border-radius: 8px;
+}
+
+.btn-estilo:hover{
+	background:  linear-gradient(to  left,  #1e1e1e, #1e1e1e);
+	border: 1.5px solid #ccff33;
+	
+}
+
+.btn-centro{
+
+  justify-content: center;  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.rodape{
+	font-size: 13px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 8px;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+
+}.rodape a{
+  color: orange;
+  padding: 15px;
+
+}
+
+
+
