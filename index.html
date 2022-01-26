@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ORACLE ONE - ALURA | CRIPTOGRAFIA DE TEXTO</title>
+	<!--Aqui eu defini o estilo do corpo da página -->
+	<link rel="stylesheet" type="text/css" href="css/estilo_body.css">
+	<!-- Aqui eu defini o estilo do menu de navegação-->
+	<link rel="stylesheet" type="text/css" href="css/estilo_Menu.css">
+	<!-- Aqui eu defini o estilo mediaQueries -->
+		<link rel="stylesheet" type="text/css" href="css/media_Queries.css">
+</head>
+<body>
+<!-- Aqui eu defini o titulo da página -->
+<h2>PROJETO ORACLE ONE - ALURA | CRIPTOGRAFIA DE TEXTO</h2>
+<!-- Aqui eu defini o menu de navegação -->
+<nav>
+  <ul class="menu">
+    <li><a href="index.html">Inicio | </a></a></li>
+    <li><a href="sobre.html">Sobre | </a></a></li>
+    <li><a href="como_Funciona.html">Como funciona? | </li></a>
+	<li><a href="contato.html">Contato</a></a></li>
+  </ul> 
+</nav>
+<!-- Aqui eu defini as caixas de textos usadas para criptografia -->
+<section class="container">
+	<div class="flex">
+		<label>* Criptografar Texto *</label><br><br> 
+		<textarea  id="texto-codificar" rows="10" cols="80" onclick="apagar_AREA1();" >
+new_gallery | [versão 1.0.1]
+gerar:\msg\criptografia>
+		</textarea><br><br>
+		<label>* Texto Criptografado *</label><br><br> 
+		<textarea id="texto-codificado" rows="10" cols="80" >
+
+		</textarea><br><br>
+<!-- Aqui eu defini os botões que vou precisar para criptografar-->
+	<div class="btn-centro">
+		<button type="submit" id="enviar-cript" class="btn-estilo">Criptografar</button>
+		<button type="submit" id="enviar-descript" class="btn-estilo">Descriptografar</button>
+	    <button type="submit" onclick="copiarTexto()" class="btn-estilo">COPIAR</button>
+	</div>
+	</div>
+</section>
+<!-- Aqui eu defini meu rodapé-->
+<footer class="rodape">
+  <p>Desenvolvido por: Kleber Belo | 2022<br>
+  <a href="index.html">new_gallery</p></a>
+</footer>
+<!-- Aqui eu defini o meu arquivo JavaScript dentro de um arquivo externo-->
+<script type="text/javascript" src="js/utils.js"></script>
+</body>
+</html>
