@@ -1,0 +1,85 @@
+body{
+  margin: 0;
+  padding: 0;
+  background:  linear-gradient(to  left, #1e1e1e, #282923);
+  font-family: COURIER NEW;
+}
+
+h2{
+  color: #fff;
+}
+
+a{
+  text-decoration-line: none;
+}
+
+.texto-link{
+  justify-content: center;  
+  display: flex;
+  margin-top: 250px;
+  color: #fff;
+}
+
+.flex{
+  margin-top: 80px;
+  justify-content: center;  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.image1{
+  height: 200px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.image2{
+  height:100px;
+  margin: 10px;
+}
+
+
+.btn-estilo{
+  height: 45px;
+  width: 180px;
+  background: linear-gradient(to  right,  #ccff33, #1e1e1e);
+  cursor: pointer;
+  margin: 5px;
+  justify-content: center;  
+  flex-wrap: wrap;
+  color: #fff;
+  border: none;
+  font-family: COURIER NEW;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.btn-estilo:hover{
+  background:  linear-gradient(to  left,  #1e1e1e, #1e1e1e);
+  border: 1.5px solid #ccff33;
+}
+
+.btn-centro{
+  margin-top: 50px;
+  justify-content: center;  
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.rodape{
+  font-size: 13px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 8px;
+  background-color: #1e1e1e;
+  color: #fff;
+  text-align: center;
+
+}.rodape a{
+  color: orange;
+  padding: 15px;
+}
