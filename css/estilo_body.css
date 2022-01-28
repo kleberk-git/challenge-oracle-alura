@@ -7,7 +7,7 @@ body{
 }
 
 a{
-  text-decoration-line: none;
+  	text-decoration-line: none;
 }
 
 h2{
@@ -16,6 +16,10 @@ h2{
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
+}
+
+.menu{
+	font-size: 15px;
 }
 
 label{
@@ -58,26 +62,26 @@ textarea{
 
 .btn-centro{
 
-  justify-content: center;  
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+	  justify-content: center;  
+	  display: flex;
+	  flex-wrap: wrap;
+	  align-items: center;
 }
 
 .rodape{
 	font-size: 13px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 8px;
-  background-color: #1e1e1e;
-  color: #fff;
-  text-align: center;
+	  position: fixed;
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  padding: 8px;
+	  background-color: #1e1e1e;
+	  color: #fff;
+	  text-align: center;
 
 }.rodape a{
-  color: orange;
-  padding: 15px;
+	  color: orange;
+	  padding: 15px;
 
 }
 
