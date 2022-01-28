@@ -46,7 +46,7 @@ textarea.addEventListener("keypress", function(e){
 function verificar_CHAR(e){
 
 	const char = String.fromCharCode(e.keyCode);
-	const pattern = '[a-zA-Z0-9]';
+	const pattern = '[a-zA-Z0-9_ ]';
 
 	if(char.match(pattern)){
 		return true;
