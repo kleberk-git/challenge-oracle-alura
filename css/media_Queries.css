@@ -1,16 +1,21 @@
 @media screen and (max-width: 480px) {
- .flex{
-  justify-content: center; 
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 15px;
+   .flex{
+    justify-content: center; 
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
   }
 
   h2{
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
   }
 
+  .menu{
+    font-size: 15px;
+    text-align: center;
+  }
+ 
   body{
     margin-top: 10px;
     margin:  auto;
@@ -22,12 +27,23 @@
   }
 
   .btn-centro{
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center; 
-  margin-top: 8px;
-  display: flex;
-  flex-wrap: wrap;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
   }
+ 
+ .copiar{
+    width: 85px;
+  }
+  .cript{
+    width: 150px;
+  }
+  .descript{
+    width: 150px;
+  }
+
 
 }
